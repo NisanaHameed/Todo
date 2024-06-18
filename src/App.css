@@ -1,0 +1,91 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/public/top-view-workspace-with-copy-space-notebook-top-agenda.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #121212;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #2f2f2f;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #286f16;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #656464;
+  font-size: 0.9rem;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #286f16;
+  color: #fff;
+  border: none;
+  padding: 0.58rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #b5f1a6;
+  color: #343434;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #616060;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
